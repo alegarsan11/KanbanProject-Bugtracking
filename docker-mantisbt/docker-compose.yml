@@ -1,0 +1,36 @@
+services:
+  mantisbt:
+    image: xlrl/mantisbt:latest
+    container_name: mantis-app
+    restart: always
+    ports:
+      - '8989:80'
+    volumes:
+      - ./config:/var/www/html/config
+      - ./custom:/var/www/html/custom
+    environment:
+      - MANTIS_TIMEZONE=Europe/Madrid
+      # Cambia a 0 una vez logres entrar por primera vez
+      - MANTIS_ENABLE_ADMIN=1 
+      # Configuración directa de Base de Datos para evitar el instalador
+      - MANTIS_DB_TYPE=mysqli
+      - MANTIS_DB_HOST=mantis-db
+      - MANTIS_DB_NAME=bugtracker
+      - MANTIS_DB_USER=mantis
+      - MANTIS_DB_PASSWORD=mantis
+    depends_on:
+      - mantis-db
+
+  mantis-db:
+    image: mariadb:latest
+    container_name: mantis-db
+    restart: always
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=bugtracker
+      - MYSQL_USER=mantis
+      - MYSQL_PASSWORD=mantis
+
+# He quitado Postgres para que no te consuma RAM si no lo usas

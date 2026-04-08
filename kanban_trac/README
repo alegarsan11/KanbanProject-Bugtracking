@@ -1,0 +1,2 @@
+# Launch the proyect like this (ADMIN ADMIN) python3.11 is working only
+tracd --port 8080 --basic-auth="proyectotrac,.htpasswd,Proyecto Local" proyectotrac

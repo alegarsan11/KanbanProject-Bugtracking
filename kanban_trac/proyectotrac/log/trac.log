@@ -1,0 +1,415 @@
+2026-04-08 21:59:51,011 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 21:59:51,039 Trac[env] INFO: Wrote sample configuration file with the new settings and their default values: /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/conf/trac.ini.sample
+2026-04-08 21:59:51,124 Trac[admin] INFO: Installing default wiki pages
+2026-04-08 21:59:51,124 Trac[admin] INFO: CamelCase imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/CamelCase
+2026-04-08 21:59:51,125 Trac[admin] INFO: InterMapTxt imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/InterMapTxt
+2026-04-08 21:59:51,125 Trac[admin] INFO: InterTrac imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/InterTrac
+2026-04-08 21:59:51,125 Trac[admin] INFO: InterWiki imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/InterWiki
+2026-04-08 21:59:51,125 Trac[admin] INFO: PageTemplates imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/PageTemplates
+2026-04-08 21:59:51,125 Trac[admin] INFO: RecentChanges imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/RecentChanges
+2026-04-08 21:59:51,125 Trac[admin] INFO: SandBox imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/SandBox
+2026-04-08 21:59:51,125 Trac[admin] INFO: TicketQuery imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TicketQuery
+2026-04-08 21:59:51,125 Trac[admin] INFO: TitleIndex imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TitleIndex
+2026-04-08 21:59:51,125 Trac[admin] INFO: TracAccessibility imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracAccessibility
+2026-04-08 21:59:51,125 Trac[admin] INFO: TracAdmin imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracAdmin
+2026-04-08 21:59:51,125 Trac[admin] INFO: TracBackup imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracBackup
+2026-04-08 21:59:51,125 Trac[admin] INFO: TracBatchModify imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracBatchModify
+2026-04-08 21:59:51,125 Trac[admin] INFO: TracBrowser imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracBrowser
+2026-04-08 21:59:51,125 Trac[admin] INFO: TracCgi imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracCgi
+2026-04-08 21:59:51,125 Trac[admin] INFO: TracChangeLog imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracChangeLog
+2026-04-08 21:59:51,125 Trac[admin] INFO: TracChangeset imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracChangeset
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracEnvironment imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracEnvironment
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracFastCgi imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracFastCgi
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracFineGrainedPermissions imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracFineGrainedPermissions
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracGuide imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracGuide
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracImport imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracImport
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracIni imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracIni
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracInstall imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracInstall
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracInterfaceCustomization imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracInterfaceCustomization
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracLinks imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracLinks
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracLogging imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracLogging
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracModPython imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracModPython
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracModWSGI imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracModWSGI
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracNavigation imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracNavigation
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracNotification imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracNotification
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracPermissions imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracPermissions
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracPlugins imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracPlugins
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracQuery imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracQuery
+2026-04-08 21:59:51,126 Trac[admin] INFO: TracReports imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracReports
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracRepositoryAdmin imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracRepositoryAdmin
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracRevisionLog imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracRevisionLog
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracRoadmap imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracRoadmap
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracRss imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracRss
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracSearch imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracSearch
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracStandalone imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracStandalone
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracSupport imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracSupport
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracSyntaxColoring imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracSyntaxColoring
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracTickets imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracTickets
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracTicketsCustomFields imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracTicketsCustomFields
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracTimeline imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracTimeline
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracUnicode imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracUnicode
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracUpgrade imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracUpgrade
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracWiki imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracWiki
+2026-04-08 21:59:51,127 Trac[admin] INFO: TracWorkflow imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/TracWorkflow
+2026-04-08 21:59:51,127 Trac[admin] INFO: WikiDeletePage imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/WikiDeletePage
+2026-04-08 21:59:51,127 Trac[admin] INFO: WikiFormatting imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/WikiFormatting
+2026-04-08 21:59:51,127 Trac[admin] INFO: WikiHtml imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/WikiHtml
+2026-04-08 21:59:51,128 Trac[admin] INFO: WikiMacros imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/WikiMacros
+2026-04-08 21:59:51,128 Trac[admin] INFO: WikiNewPage imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/WikiNewPage
+2026-04-08 21:59:51,128 Trac[admin] INFO: WikiPageNames imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/WikiPageNames
+2026-04-08 21:59:51,128 Trac[admin] INFO: WikiProcessors imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/WikiProcessors
+2026-04-08 21:59:51,128 Trac[admin] INFO: WikiRestructuredText imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/WikiRestructuredText
+2026-04-08 21:59:51,128 Trac[admin] INFO: WikiRestructuredTextLinks imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/WikiRestructuredTextLinks
+2026-04-08 21:59:51,128 Trac[admin] INFO: WikiStart imported from /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/wiki/default-pages/WikiStart
+2026-04-08 21:59:55,545 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 21:59:55,571 Trac[perm] INFO: Granted permission for TRAC_ADMIN to admin
+2026-04-08 22:00:07,071 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:01:03,200 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-04-08 22:01:03,351 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:01:03,351 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac'
+2026-04-08 22:01:09,458 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:01:09,458 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac'
+2026-04-08 22:01:11,144 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:01:11,144 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac'
+2026-04-08 22:01:15,137 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:01:15,137 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac'
+2026-04-08 22:01:23,041 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:01:23,041 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/newticket'
+2026-04-08 22:02:57,291 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:02:57,291 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/newticket'
+2026-04-08 22:03:00,514 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:03:00,515 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/ticket/1'
+2026-04-08 22:03:09,219 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:03:09,219 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/ticket/1'
+2026-04-08 22:20:13,809 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:20:13,818 Trac[loader] ERROR: Skipping "TracXMLRPC = tracrpc": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_permission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/__init__.py", line 13, in <module>
+    from tracrpc.api import *
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/api.py", line 313
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 313)
+2026-04-08 22:20:49,111 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:20:49,120 Trac[loader] ERROR: Skipping "TracXMLRPC = tracrpc": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_permission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/__init__.py", line 13, in <module>
+    from tracrpc.api import *
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/api.py", line 313
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 313)
+2026-04-08 22:21:17,712 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:21:17,721 Trac[loader] ERROR: Skipping "TracXMLRPC = tracrpc": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_permission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/__init__.py", line 13, in <module>
+    from tracrpc.api import *
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/api.py", line 313
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 313)
+2026-04-08 22:21:29,198 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:21:29,207 Trac[loader] ERROR: Skipping "TracXMLRPC = tracrpc": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_permission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/__init__.py", line 13, in <module>
+    from tracrpc.api import *
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/api.py", line 313
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 313)
+2026-04-08 22:22:37,157 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:22:37,166 Trac[loader] ERROR: Skipping "TracXMLRPC = tracrpc": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_permission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/__init__.py", line 13, in <module>
+    from tracrpc.api import *
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/api.py", line 313
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 313)
+2026-04-08 22:23:40,946 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:23:40,955 Trac[loader] ERROR: Skipping "TracXMLRPC = tracrpc": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/__init__.py", line 13, in <module>
+    from tracrpc.api import *
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/api.py", line 313
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 313)
+2026-04-08 22:23:40,974 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-04-08 22:23:41,137 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:23:41,137 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/ticket/1'
+2026-04-08 22:23:43,125 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:23:43,125 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin'
+2026-04-08 22:23:45,825 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:23:45,825 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/ticket/components'
+2026-04-08 22:23:49,805 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:23:49,805 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/ticket/components/component1'
+2026-04-08 22:23:52,343 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:23:52,344 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/general/plugin'
+2026-04-08 22:24:55,914 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:24:55,923 Trac[loader] ERROR: Skipping "TracXMLRPC = tracrpc": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_permission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/__init__.py", line 13, in <module>
+    from tracrpc.api import *
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/api.py", line 313
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 313)
+2026-04-08 22:25:05,101 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:25:05,110 Trac[loader] ERROR: Skipping "TracXMLRPC = tracrpc": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_permission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/__init__.py", line 13, in <module>
+    from tracrpc.api import *
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/api.py", line 313
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 313)
+2026-04-08 22:25:25,619 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:25:25,628 Trac[loader] ERROR: Skipping "TracXMLRPC = tracrpc": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_permission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/__init__.py", line 13, in <module>
+    from tracrpc.api import *
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/api.py", line 313
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 313)
+2026-04-08 22:26:02,074 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:26:02,082 Trac[loader] ERROR: Skipping "TracXMLRPC = tracrpc": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_permission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/__init__.py", line 13, in <module>
+    from tracrpc.api import *
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/api.py", line 313
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 313)
+2026-04-08 22:26:13,939 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:26:13,950 Trac[loader] ERROR: Skipping "TracXMLRPC = tracrpc": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/__init__.py", line 13, in <module>
+    from tracrpc.api import *
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/api.py", line 313
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 313)
+2026-04-08 22:26:13,970 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-04-08 22:26:14,072 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:26:14,073 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/general/plugin'
+2026-04-08 22:26:17,349 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:26:17,349 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/general/perm'
+2026-04-08 22:26:31,967 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:26:31,967 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/ticket/resolution'
+2026-04-08 22:26:38,786 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:26:38,786 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/ticket/type'
+2026-04-08 22:26:40,578 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:26:40,578 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/ticket/versions'
+2026-04-08 22:26:41,514 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:26:41,514 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/ticket/severity'
+2026-04-08 22:26:42,245 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:26:42,245 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/ticket/resolution'
+2026-04-08 22:26:43,215 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:26:43,215 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/ticket/priority'
+2026-04-08 22:26:44,313 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:26:44,313 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/ticket/milestones'
+2026-04-08 22:26:45,290 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:26:45,290 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/ticket/components'
+2026-04-08 22:26:46,373 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:26:46,373 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/general/logging'
+2026-04-08 22:26:52,486 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:26:52,486 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/general/basics'
+2026-04-08 22:32:09,887 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:32:09,895 Trac[loader] ERROR: Skipping "TracXMLRPC = tracrpc": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_permission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/__init__.py", line 13, in <module>
+    from tracrpc.api import *
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/tracrpc/api.py", line 313
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 313)
+2026-04-08 22:32:53,391 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:33:07,328 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:33:27,303 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:33:27,332 Trac[perm] INFO: Granted permission for XML_RPC to admin
+2026-04-08 22:33:46,863 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-08 22:33:46,895 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-04-08 22:33:46,987 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:33:46,987 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/general/basics'
+2026-04-08 22:33:49,172 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:33:49,172 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/admin/general/plugin'
+2026-04-08 22:33:52,800 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-08 22:33:52,800 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/wiki'

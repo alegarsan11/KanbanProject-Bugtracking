@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="refresh" content="3">
+		<title>Kanban</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+	</head>
+	<body>
+        <header class="main-header">
+    <nav class="navbar">
+
+        <ul class="nav-links">
+            <li><a href="/" class="active">Tablero</a></li>
+            <li><a href="/tickets/new">Nuevo Ticket</a></li>
+            <li><a href="/config">Ajustes</a></li>
+        </ul>
+
+
+    </nav>
+</header>`
+
+        {% block content %}
+        {% endblock %}
+		
+	</body>
+    <script>
+    // Función que recarga la página
+    function refrescarTablero() {
+        console.log("Comprobando actualizaciones en Trac...");
+        // Por ahora, recargamos la página completa para ver los cambios
+        location.reload();
+    }
+
+    // Creamos el intervalo: 30000 milisegundos = 30 segundos
+    const intervaloCarga = setInterval(refrescarTablero, 30000);
+
+    // Si quieres detenerlo en algún momento, usarías: clearInterval(intervaloCarga);
+</script>
+</html>

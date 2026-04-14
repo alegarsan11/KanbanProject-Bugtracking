@@ -11,7 +11,7 @@ services:
     environment:
       - MANTIS_TIMEZONE=Europe/Madrid
       # Cambia a 0 una vez logres entrar por primera vez
-      - MANTIS_ENABLE_ADMIN=1 
+      - MANTIS_ENABLE_ADMIN=1
       # Configuración directa de Base de Datos para evitar el instalador
       - MANTIS_DB_TYPE=mysqli
       - MANTIS_DB_HOST=mantis-db

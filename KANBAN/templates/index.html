@@ -4,129 +4,46 @@
 
 {% block content %}
 <h1 class="main-title">Kanban</h1>
-<div class="drag-container">
-	<ul class="drag-list">
-		<!-- To Be Done Column -->
-		<li class="drag-column to-do-column">
-			<span class="header">
-				<h1>To Do</h1>
 
-			</span>
-			<!-- To Be Done Content -->
-			<div id="to-do-content" class="custom-scroll-todo">
-				<ul class="drag-item-list" id="to-do-list">
-					{% for new in tickets['New'] %}
-					<div style="background-color: rgba(0, 255, 0, 0.4);border-radius: 9px;border-color: green; border: 5px;">
-						<div class="card">{{ new[3]['summary'] }}</div>
-						<div class="card">{{ new[3]['description'] }}</div>
-					</div>
-					{% endfor %}
-				</ul>
-			</div>
-			<!-- Add Button Group -->
-			<div class="add-btn-group">
-				<div class="add-btn">
-					<span class="plus-sign">+</span>
-					<span>Add Item</span>
-				</div>
-				<div class="add-btn solid">
-					<span>Save Item</span>
-				</div>
-			</div>
-			<div class="add-container">
-				<div class="add-item" contenteditable="true"></div>
-			</div>
-		</li>
-		<!-- Doing Column -->
-		<li class="drag-column doing-column">
-			<span class="header">
-				<h1>In Progress</h1>
-			</span>
-			<!-- Doing Content -->
-			<div id="doing-content" class="custom-scroll-doing">
-				<ul class="drag-item-list" id="doing-list">
-					{% for new in tickets['In-Progress'] %}
-					<div style="background-color: rgba(255, 0, 0, 0.4);border-radius: 9px;border-color: green; border: 5px;">
-						<div class="card">{{ new[3]['summary'] }}</div>
-						<div class="card">{{ new[3]['description'] }}</div>
-					</div>
-					{% endfor %}
-				</ul>
-			</div>
-			<!-- Add Button Group -->
-			<div class="add-btn-group">
-				<div class="add-btn">
-					<span class="plus-sign">+</span>
-					<span>Add Item</span>
-				</div>
-				<div class="add-btn solid">
-					<span>Save Item</span>
-				</div>
-			</div>
-			<div class="add-container">
-				<div class="add-item" contenteditable="true"></div>
-			</div>
-		</li>
-		<!-- Done Column -->
-		<li class="drag-column done-column">
-			<span class="header">
-				<h1>Done</h1>
-			</span>
-			<!-- Done Content -->
-			<div id="done-content" class="custom-scroll-done">
-				<ul class="drag-item-list" id="done-list">
-					{% for new in tickets['Done'] %}
-					<div style="background-color: rgba(0, 0, 255, 0.4);border-radius: 9px;border-color: green; border: 5px;">
-						<div class="card">{{ new[3]['summary'] }}</div>
-						<div class="card">{{ new[3]['description'] }}</div>
-					</div>
-					{% endfor %}
-				</ul>
-			</div>
-			<!-- Add Button Group -->
-			<div class="add-btn-group">
-				<div class="add-btn">
-					<span class="plus-sign">+</span>
-					<span>Add Item</span>
-				</div>
-				<div class="add-btn solid">
-					<span>Save Item</span>
-				</div>
-			</div>
-			<div class="add-container">
-				<div class="add-item" contenteditable="true"></div>
-			</div>
-		</li>
-		<!-- On Hold Column -->
-		<li class="drag-column on-hold-column">
-			<span class="header">
-				<h1>On Hold</h1>
-			</span>
-			<!-- On Hold Content -->
-			<div id="on-hold-content" class="custom-scroll">
-				<ul class="drag-item-list" id="on-hold-list">
-					{% for new in tickets['On-Hold'] %}
-					<div style="background-color: rgba(65, 255, 233, 0.4);border-radius: 9px;border-color: green; border: 5px;">
-						<div class="card">{{ new[3]['summary'] }}</div>
-						<div class="card">{{ new[3]['description'] }}</div>
-					</div>
-					{% endfor %}
-				</ul>
-			</div>
-			<!-- Add Button Group -->
-			<div class="add-btn-group">
-				<div class="add-btn">
-					<span class="plus-sign">+</span>
-					<span>Add Item</span>
-				</div>
-				<div class="add-btn solid">
-					<span>Save Item</span>
-				</div>
-			</div>
-			<div class="add-container">
-				<div class="add-item" contenteditable="true"></div>
-			</div>
-		</li>
-	</ul>
+<div class="kanban-container">
+
+  {% set columns = {
+    "New": "To Do",
+    "In-Progress": "In Progress",
+    "Done": "Done",
+    "On-Hold": "On Hold"
+  } %}
+  {% for key, title in columns.items() %}
+  <div class="kanban-column">
+    
+    <div class="kanban-header">
+      <h2>{{ title }}</h2>
+    </div>
+
+    <div class="kanban-cards">
+      {% for ticket in tickets[key] %}
+      <div class="kanban-card">
+
+        <div class="card-title">
+          {{ ticket.summary }}
+        </div>
+
+        <div class="card-desc">
+          {{ ticket.description or "No description" }}
+        </div>
+
+        <div class="card-meta">
+          <span class="badge project">{{ ticket.project }}</span>
+          <span class="badge source">{{ ticket.source }}</span>
+          <span class="badge id">#{{ ticket.id }}</span>
+        </div>
+
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+  {% endfor %}
+
 </div>
 {% endblock %}

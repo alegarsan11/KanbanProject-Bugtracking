@@ -1,2 +1,6 @@
 flask
 apscheduler
+requests
+bs4
+zeep
+glpi-api

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="refresh" content="3">
+        <meta http-equiv="refresh" content="30">
 		<title>Kanban</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 	</head>
@@ -14,12 +14,11 @@
         <ul class="nav-links">
             <li><a href="/" class="active">Tablero</a></li>
             <li><a href="/tickets/new">Nuevo Ticket</a></li>
-            <li><a href="/config">Ajustes</a></li>
         </ul>
 
 
     </nav>
-</header>`
+</header>
 
         {% block content %}
         {% endblock %}

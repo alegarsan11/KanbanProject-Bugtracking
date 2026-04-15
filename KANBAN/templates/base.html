@@ -9,15 +9,33 @@
 	</head>
 	<body>
         <header class="main-header">
-    <nav class="navbar">
+<ul class="nav-links">
+{% for link in nav_links %}
+    <li class="nav-item">
+        
+        {% if link.children %}
+            <div class="dropdown">
+                <a href="{{ link.url }}" class="nav-link">
+                    {{ link.name }} ▼
+                </a>
 
-        <ul class="nav-links">
-            <li><a href="/" class="active">Tablero</a></li>
-            <li><a href="/tickets/new">Nuevo Ticket</a></li>
-        </ul>
+                <div class="dropdown-menu">
+                    {% for child in link.children %}
+                        <a href="{{ child.url }}" class="dropdown-item">
+                            {{ child.name }}
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        {% else %}
+            <a href="{{ link.url }}" class="nav-link">
+                {{ link.name }}
+            </a>
+        {% endif %}
 
-
-    </nav>
+    </li>
+{% endfor %}
+</ul>
 </header>
 
         {% block content %}

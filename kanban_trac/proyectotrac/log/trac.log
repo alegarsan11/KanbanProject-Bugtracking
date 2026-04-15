@@ -485,3 +485,11 @@ SyntaxError: multiple exception types must be parenthesized (api.py, line 313)
 2026-04-14 20:01:34,843 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/ticket/1'
 2026-04-14 20:10:52,467 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
 2026-04-14 20:10:52,473 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-04-15 18:11:25,392 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-15 18:11:25,401 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-04-15 18:27:42,805 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-15 18:27:42,811 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac'
+2026-04-15 18:29:01,102 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-15 18:29:01,103 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/ticket/1'
+2026-04-15 19:03:00,075 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-04-15 19:03:00,075 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/report'

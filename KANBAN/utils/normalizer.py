@@ -38,7 +38,8 @@ def normalize_ticket(ticket):
         "project": ticket.get("project", "unknown"),
         "source": ticket.get("source", "unknown"),
         "status_raw": status_raw,
-        "status": STATUS_MAP.get(status_raw, "On-Hold")
+        "status": STATUS_MAP.get(status_raw, "On-Hold"),
+        "url": ticket.get("url", "unknown")
     }
 
 

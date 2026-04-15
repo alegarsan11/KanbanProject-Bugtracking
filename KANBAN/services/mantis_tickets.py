@@ -1,14 +1,22 @@
+import os
 import requests
 from requests.auth import HTTPBasicAuth
 from bs4 import BeautifulSoup
 from zeep import Client
-
-BASE_URL = "http://localhost:8989"
-USERNAME = "administrator"
-PASSWORD = "root"   # change this
+from dotenv import load_dotenv
 
 # =========================
-# 1. SOAP API (xmlrpc/soap)
+# LOAD ENV
+# =========================
+load_dotenv()
+
+BASE_URL = os.getenv("MANTIS_URL")
+USERNAME = os.getenv("MANTIS_USER")
+PASSWORD = os.getenv("MANTIS_PASS")
+
+
+# =========================
+# 1. SOAP API
 # =========================
 def get_tickets_soap():
     print("\n--- SOAP API ---")
@@ -16,33 +24,12 @@ def get_tickets_soap():
     wsdl = f"{BASE_URL}/api/soap/mantisconnect.php?wsdl"
     client = Client(wsdl=wsdl)
 
-    # Get issues (project_id = 1, adjust if needed)
     issues = client.service.mc_project_get_issues(
         USERNAME,
         PASSWORD,
         1,      # project_id
         1,      # page
         50      # per_page
-    )
-
-    for issue in issues:
-        print(f"ID: {issue.id}")
-        print(f"Summary: {issue.summary}")
-        print(f"Status: {issue.status.name}")
-        print("-" * 30)
-
-    return issues
-
-
-# =========================
-# 2. REST API
-# =========================
-def get_tickets_soap():
-    wsdl = f"{BASE_URL}/api/soap/mantisconnect.php?wsdl"
-    client = Client(wsdl=wsdl)
-
-    issues = client.service.mc_project_get_issues(
-        USERNAME, PASSWORD, 1, 1, 50
     )
 
     tickets = []
@@ -54,17 +41,54 @@ def get_tickets_soap():
             "status": issue.status.name,
             "description": getattr(issue, "description", ""),
             "project": "mantis_project_1",
-            "source": "mantis_soap"
+            "source": "mantis_soap",
+            "url": f"{BASE_URL}/view.php?id={issue.id}"
         }
-
         tickets.append(ticket)
 
     return tickets
 
+
 # =========================
-# 3. Web Scraping
+# 2. REST API
+# =========================
+def get_tickets_rest():
+    print("\n--- REST API ---")
+
+    url = f"{BASE_URL}/api/rest/issues"
+    response = requests.get(
+        url,
+        auth=HTTPBasicAuth(USERNAME, PASSWORD),
+        headers={"Accept": "application/json"}
+    )
+
+    if response.status_code != 200:
+        raise Exception(f"REST error: {response.status_code} - {response.text}")
+
+    data = response.json()
+    tickets = []
+
+    for issue in data.get("issues", []):
+        ticket = {
+            "id": str(issue["id"]),
+            "summary": issue["summary"],
+            "status": issue["status"]["name"] if isinstance(issue["status"], dict) else issue["status"],
+            "description": issue.get("description", ""),
+            "project": "mantis_project_1",
+            "source": "mantis_rest",
+            "url": f"{BASE_URL}/view.php?id={issue['id']}"
+        }
+        tickets.append(ticket)
+
+    return tickets
+
+
+# =========================
+# 3. WEB SCRAPING
 # =========================
 def get_tickets_scraping():
+    print("\n--- SCRAPING ---")
+
     session = requests.Session()
 
     login_url = f"{BASE_URL}/login.php"
@@ -86,13 +110,16 @@ def get_tickets_scraping():
         if len(cols) < 11:
             continue
 
+        bug_id = cols[3].text.strip()
+
         ticket = {
-            "id": cols[3].text.strip(),
+            "id": bug_id,
             "summary": cols[10].text.strip(),
             "status": cols[8].text.strip(),
-            "description": "",  # not available here
+            "description": "",
             "project": "mantis_scraped",
-            "source": "mantis_scraping"
+            "source": "mantis_scraping",
+            "url": f"{BASE_URL}/view.php?id={bug_id}"
         }
 
         tickets.append(ticket)
@@ -104,17 +131,21 @@ def get_tickets_scraping():
 # MAIN
 # =========================
 if __name__ == "__main__":
+
     try:
-        get_tickets_soap()
+        soap = get_tickets_soap()
+        print(f"SOAP tickets: {len(soap)}")
     except Exception as e:
         print("SOAP error:", e)
 
     try:
-        get_tickets_rest()
+        rest = get_tickets_rest()
+        print(f"REST tickets: {len(rest)}")
     except Exception as e:
         print("REST error:", e)
 
     try:
-        get_tickets_scraping()
+        scraped = get_tickets_scraping()
+        print(f"SCRAPED tickets: {len(scraped)}")
     except Exception as e:
         print("Scraping error:", e)

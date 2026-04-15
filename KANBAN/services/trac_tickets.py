@@ -1,16 +1,33 @@
+import os
 import xmlrpc.client
+from dotenv import load_dotenv
 
-# Configura tus datos
-USER = "admin"
-PASS = "admin"
+# =========================
+# LOAD ENV
+# =========================
+load_dotenv()
 
-def get_all_tickets_by_project(project):
-    URL = f"http://{USER}:{PASS}@localhost:8080/{project}/login/xmlrpc"
-    server = xmlrpc.client.ServerProxy(URL)
+TRAC_USER = os.getenv("TRAC_USER")
+TRAC_PASS = os.getenv("TRAC_PASS")
+TRAC_PROJECTS = os.getenv("TRAC_PROJECTS", "").split(",")
+
+
+# =========================
+# BUILD TRAC SERVER URL
+# =========================
+def build_server(project):
+    base_url = f"http://{TRAC_USER}:{TRAC_PASS}@localhost:8080/{project}"
+    return xmlrpc.client.ServerProxy(base_url + "/login/xmlrpc"), base_url
+
+
+# =========================
+# GET TICKETS BY PROJECT
+# =========================
+def get_tickets_by_project(project):
+    server, base_url = build_server(project)
 
     ticket_ids = server.ticket.query("max=0")
-
-    acum = []
+    tickets = []
 
     for t_id in ticket_ids:
         t_data = server.ticket.get(t_id)
@@ -22,19 +39,25 @@ def get_all_tickets_by_project(project):
             "status": attributes.get("status", ""),
             "description": attributes.get("description", ""),
             "project": project,
-            "source": "trac"
+            "source": "trac",
+            "url": f"{base_url}/ticket/{t_id}"
         }
 
-        acum.append(ticket)
+        tickets.append(ticket)
 
-    return acum
+    return tickets
 
 
+# =========================
+# GET ALL TRAC TICKETS
+# =========================
 def get_all_tickets_trac():
-    projects = ['otro_proyect', 'proyectotrac']
-    accum = []
+    all_tickets = []
 
-    for p in projects:
-        accum.extend(get_all_tickets_by_project(p))
+    for project in TRAC_PROJECTS:
+        try:
+            all_tickets.extend(get_tickets_by_project(project))
+        except Exception as e:
+            print(f"Trac error in {project}: {e}")
 
-    return accum
+    return all_tickets

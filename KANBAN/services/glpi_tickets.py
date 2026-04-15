@@ -1,35 +1,48 @@
-import glpi_api 
+import os
+import glpi_api
+from dotenv import load_dotenv
 
 # =========================
-# CONFIG
+# LOAD ENV
 # =========================
-GLPI_URL = "http://localhost:8070/api.php/v1"
-APP_TOKEN = "S1iyTsQvCX94r2IX3LLAS9pVyVIgzF9sJPZmjL9o"
-USER_TOKEN = "fXnUx99NQ4uvgPzm1Kxuh2SADwH8Zj0PrrEtTAcc"
+load_dotenv()
+
+GLPI_URL = os.getenv("GLPI_URL")
+GLPI_API_URL = GLPI_URL + "/api.php/v1"
+
+APP_TOKEN = os.getenv("GLPI_APP_TOKEN")
+USER_TOKEN = os.getenv("GLPI_USER_TOKEN")
+
 
 # =========================
-# INTERNAL CONNECTOR
+# CONNECTOR
 # =========================
 def connect_glpi():
     """
     Context manager connection to GLPI API
     """
-    return glpi_api.connect(GLPI_URL, APP_TOKEN, USER_TOKEN)
+    return glpi_api.connect(GLPI_API_URL, APP_TOKEN, USER_TOKEN)
 
 
 # =========================
 # NORMALIZE TICKET
 # =========================
 def normalize_ticket(t):
-    print(t)
+    """
+    Convert GLPI raw ticket into unified format
+    """
+
+    ticket_id = t.get("2") or t.get("id")
+
     return {
-        "id": str(t.get("2")),
-        "summary": t.get("1", ""),
-        "description": t.get("content", ""),
+        "id": str(ticket_id),
+        "summary": t.get("1", "") or t.get("name", ""),
+        "description": t.get("content", "") or t.get("description", ""),
         "status": str(t.get("12", "1")),
         "project": t.get("entities_id", "glpi"),
         "assigned_to": t.get("users_id_assign"),
-        "source": "glpi"
+        "source": "glpi",
+        "url": f"{GLPI_URL}/front/ticket.form.php?id={ticket_id}"
     }
 
 
@@ -38,21 +51,22 @@ def normalize_ticket(t):
 # =========================
 def get_all_tickets_glpi():
     tickets = []
-    
+
     try:
         with connect_glpi() as glpi:
             raw = glpi.search("Ticket")
-            
+
             for t in raw:
                 tickets.append(normalize_ticket(t))
 
     except glpi_api.GLPIError as err:
         print("GLPI error:", str(err))
+
     return tickets
 
 
 # =========================
-# GET BY ENTITY (PROJECT-LIKE)
+# GET BY ENTITY
 # =========================
 def get_tickets_glpi_by_entity(entity_id):
     tickets = []
@@ -95,7 +109,7 @@ def get_ticket_by_id(ticket_id):
 
 
 # =========================
-# GROUP BY ASSIGNED USER
+# GROUP BY USER
 # =========================
 def group_by_assigned_user(tickets):
     grouped = {}
@@ -112,12 +126,9 @@ def group_by_assigned_user(tickets):
 
 
 # =========================
-# ENRICH USER NAME (OPTIONAL)
+# OPTIONAL: USERS LIST
 # =========================
-def enrich_user_names():
-    """
-    Example helper if you want to resolve user IDs to names
-    """
+def get_users():
     try:
         with connect_glpi() as glpi:
             return glpi.get_all_items("User")

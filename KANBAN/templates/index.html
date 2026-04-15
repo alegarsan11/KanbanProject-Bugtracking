@@ -21,25 +21,27 @@
     </div>
 
     <div class="kanban-cards">
-      {% for ticket in tickets[key] %}
-      <div class="kanban-card">
+{% for ticket in tickets[key] %}
+  <a href="{{ ticket.url }}" class="kanban-card-link">
+    <div class="kanban-card">
 
-        <div class="card-title">
-          {{ ticket.summary }}
-        </div>
-
-        <div class="card-desc">
-          {{ ticket.description or "No description" }}
-        </div>
-
-        <div class="card-meta">
-          <span class="badge project">{{ ticket.project }}</span>
-          <span class="badge source">{{ ticket.source }}</span>
-          <span class="badge id">#{{ ticket.id }}</span>
-        </div>
-
+      <div class="card-title">
+        {{ ticket.summary }}
       </div>
-      {% endfor %}
+
+      <div class="card-desc">
+        {{ ticket.description or "No description" }}
+      </div>
+
+      <div class="card-meta">
+        <span class="badge project">{{ ticket.project }}</span>
+        <span class="badge source">{{ ticket.source }}</span>
+        <span class="badge id">#{{ ticket.id }}</span>
+      </div>
+
+    </div>
+  </a>
+  {% endfor %}
     </div>
 
   </div>

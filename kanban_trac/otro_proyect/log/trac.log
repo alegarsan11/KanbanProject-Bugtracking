@@ -234,3 +234,23 @@
 2026-04-14 20:02:24,062 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/otro_proyect/ticket/1'
 2026-04-14 20:10:52,179 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
 2026-04-14 20:10:52,203 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-04-15 18:11:25,050 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-04-15 18:11:25,121 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-04-15 18:27:16,403 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/otro_proyect/htdocs']
+2026-04-15 18:27:16,413 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/otro_proyect'
+2026-04-15 18:27:19,691 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/otro_proyect/htdocs']
+2026-04-15 18:27:19,691 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/otro_proyect'
+2026-04-15 18:28:08,969 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/otro_proyect/htdocs']
+2026-04-15 18:28:08,969 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/otro_proyect'
+2026-04-15 18:28:20,634 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/otro_proyect/htdocs']
+2026-04-15 18:28:20,635 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/otro_proyect'
+2026-04-15 18:28:22,385 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/otro_proyect/htdocs']
+2026-04-15 18:28:22,393 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/otro_proyect/report'
+2026-04-15 18:28:24,135 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/otro_proyect/htdocs']
+2026-04-15 18:28:24,135 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/otro_proyect/report/1'
+2026-04-15 18:28:26,260 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/otro_proyect/htdocs']
+2026-04-15 18:28:26,260 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/otro_proyect/ticket/1'
+2026-04-15 18:28:51,435 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/otro_proyect/htdocs']
+2026-04-15 18:28:51,435 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/otro_proyect/ticket/1'
+2026-04-15 18:28:54,238 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/otro_proyect/htdocs']
+2026-04-15 18:28:54,238 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/otro_proyect/ticket/6'

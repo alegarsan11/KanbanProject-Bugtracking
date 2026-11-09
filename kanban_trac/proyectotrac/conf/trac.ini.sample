@@ -60,6 +60,20 @@ log_format =
 log_level = INFO
 log_type = file
 
+[mastertickets]
+acceptable_formats = svg,png,cmapx
+closed_color = green
+closed_text = Done
+dot_path = dot
+full_graph = disabled
+graph_direction = TD
+gs_path = gs
+highlight_target = disabled
+opened_color = red
+opened_text = ToDo
+show_key = disabled
+use_gs = disabled
+
 [milestone]
 default_group_by = component
 default_retarget_to = 

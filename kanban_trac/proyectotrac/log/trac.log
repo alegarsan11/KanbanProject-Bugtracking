@@ -493,3 +493,1404 @@ SyntaxError: multiple exception types must be parenthesized (api.py, line 313)
 2026-04-15 18:29:01,103 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/ticket/1'
 2026-04-15 19:03:00,075 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
 2026-04-15 19:03:00,075 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://localhost:8080/proyectotrac/report'
+2026-11-09 18:29:42,486 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:29:57,634 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 18:29:57,782 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:29:57,782 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac'
+2026-11-09 18:30:02,427 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:30:02,428 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac'
+2026-11-09 18:30:04,278 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:30:04,278 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/rpc'
+2026-11-09 18:30:06,020 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:30:06,020 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin'
+2026-11-09 18:30:08,977 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:30:08,977 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/components'
+2026-11-09 18:30:12,321 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:30:12,321 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type'
+2026-11-09 18:30:17,129 Trac[session] INFO: Refreshing session admin
+2026-11-09 18:30:17,203 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:30:17,203 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type'
+2026-11-09 18:30:19,306 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:30:19,306 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type'
+2026-11-09 18:30:26,570 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:30:26,570 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type'
+2026-11-09 18:30:28,016 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:30:28,016 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type/ECR'
+2026-11-09 18:30:28,046 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:30:28,046 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type/ECR'
+2026-11-09 18:30:44,592 Trac[model] INFO: Updating ticket_type 'ECR'
+2026-11-09 18:30:44,664 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:30:44,664 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type'
+2026-11-09 18:30:51,860 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:30:51,860 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type/PR'
+2026-11-09 18:30:58,858 Trac[model] INFO: Updating ticket_type 'PR'
+2026-11-09 18:30:58,936 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:30:58,936 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type'
+2026-11-09 18:31:03,213 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:31:03,213 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type/DCR'
+2026-11-09 18:31:12,015 Trac[model] INFO: Updating ticket_type 'DCR'
+2026-11-09 18:31:12,086 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:31:12,086 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type'
+2026-11-09 18:31:16,875 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:31:16,875 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type/ECR'
+2026-11-09 18:31:25,583 Trac[model] INFO: Deleting ticket_type 'defect'
+2026-11-09 18:31:25,583 Trac[model] INFO: Updating ticket_type 'enhancement'
+2026-11-09 18:31:25,583 Trac[model] INFO: Updating ticket_type 'task'
+2026-11-09 18:31:25,583 Trac[model] INFO: Updating ticket_type 'ECR'
+2026-11-09 18:31:25,583 Trac[model] INFO: Updating ticket_type 'PR'
+2026-11-09 18:31:25,583 Trac[model] INFO: Updating ticket_type 'DCR'
+2026-11-09 18:31:25,585 Trac[model] INFO: Deleting ticket_type 'enhancement'
+2026-11-09 18:31:25,585 Trac[model] INFO: Updating ticket_type 'task'
+2026-11-09 18:31:25,585 Trac[model] INFO: Updating ticket_type 'ECR'
+2026-11-09 18:31:25,585 Trac[model] INFO: Updating ticket_type 'PR'
+2026-11-09 18:31:25,585 Trac[model] INFO: Updating ticket_type 'DCR'
+2026-11-09 18:31:25,585 Trac[model] INFO: Deleting ticket_type 'task'
+2026-11-09 18:31:25,585 Trac[model] INFO: Updating ticket_type 'ECR'
+2026-11-09 18:31:25,585 Trac[model] INFO: Updating ticket_type 'PR'
+2026-11-09 18:31:25,585 Trac[model] INFO: Updating ticket_type 'DCR'
+2026-11-09 18:31:25,599 Trac[env] INFO: Reloading environment due to configuration change
+2026-11-09 18:31:25,601 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:31:25,608 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 18:31:25,694 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:31:25,695 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type'
+2026-11-09 18:31:36,024 Trac[admin] INFO: Setting default type to ECR
+2026-11-09 18:31:36,037 Trac[env] INFO: Reloading environment due to configuration change
+2026-11-09 18:31:36,039 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:31:36,046 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 18:31:36,131 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:31:36,132 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type'
+2026-11-09 18:31:39,353 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:31:39,353 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/components'
+2026-11-09 18:31:42,673 Trac[model] INFO: Deleting component 'component1'
+2026-11-09 18:31:42,673 Trac[model] INFO: Deleting component 'component2'
+2026-11-09 18:31:42,741 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:31:42,741 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/components'
+2026-11-09 18:31:48,391 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:31:48,391 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 18:31:56,271 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:31:56,271 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/priority'
+2026-11-09 18:31:59,714 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:31:59,714 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/resolution'
+2026-11-09 18:32:06,587 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:32:06,587 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/basics'
+2026-11-09 18:32:10,575 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:32:10,575 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/logging'
+2026-11-09 18:32:12,269 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:32:12,270 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/perm'
+2026-11-09 18:32:15,519 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:32:15,519 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/components'
+2026-11-09 18:33:34,895 Trac[env] INFO: Reloading environment due to configuration change
+2026-11-09 18:33:34,897 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:33:34,904 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 18:33:34,964 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:33:34,964 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:34:14,244 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:34:14,244 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:36:34,701 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:36:34,733 Trac[api] INFO: Need to upgrade mastertickets from 0 to 2
+2026-11-09 18:36:34,733 Trac[env] WARNING: Component <Component mastertickets.api.MasterTicketsSystem> requires an environment upgrade
+2026-11-09 18:36:34,733 Trac[api] INFO: Need to upgrade mastertickets from 0 to 2
+2026-11-09 18:36:34,733 Trac[env] WARNING: Component <Component mastertickets.api.MasterTicketsSystem> requires an environment upgrade
+2026-11-09 18:36:34,733 Trac[api] INFO: Need to upgrade mastertickets from 0 to 2
+2026-11-09 18:36:34,734 Trac[env] INFO: upgrading <Component mastertickets.api.MasterTicketsSystem>...
+2026-11-09 18:36:34,734 Trac[api] INFO: Need to upgrade mastertickets from 0 to 2
+2026-11-09 18:36:34,742 Trac[env] INFO: Wrote sample configuration file with the new settings and their default values: /home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/conf/trac.ini.sample
+2026-11-09 18:36:40,079 Trac[env] INFO: Reloading environment due to configuration change
+2026-11-09 18:36:40,080 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:36:40,088 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 18:36:40,148 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:36:40,149 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:37:31,131 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:37:31,163 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 18:37:31,229 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:37:31,229 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:37:36,630 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:37:36,630 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 18:37:46,241 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:37:46,241 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/7'
+2026-11-09 18:37:47,995 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:37:47,995 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 18:37:50,083 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:37:50,083 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report'
+2026-11-09 18:37:52,357 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:37:52,357 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report/1'
+2026-11-09 18:37:54,707 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:37:54,707 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 18:38:40,746 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:38:40,747 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/8'
+2026-11-09 18:38:42,460 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:38:42,460 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/7'
+2026-11-09 18:38:50,210 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:38:50,210 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/depgraph/ticket/8'
+2026-11-09 18:45:31,829 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:45:31,861 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_repository'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 18:45:31,862 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 18:45:31,897 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 18:45:42,032 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:45:42,050 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 18:45:42,051 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 18:45:42,065 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 18:45:42,067 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (No handler matched request to /depgraph/ticket/8), <RequestWithSession "GET '/depgraph/ticket/8'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/8'
+2026-11-09 18:45:42,068 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 18:45:42,123 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:45:42,123 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/depgraph/ticket/8'
+2026-11-09 18:45:43,688 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (No handler matched request to /depgraph/ticket/8), <RequestWithSession "GET '/depgraph/ticket/8'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/8'
+2026-11-09 18:45:43,701 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:45:43,702 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/depgraph/ticket/8'
+2026-11-09 18:45:44,843 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:45:44,843 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin'
+2026-11-09 18:45:46,046 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:45:46,048 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:45:47,301 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:45:47,307 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:46:01,931 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:46:01,949 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 18:46:01,949 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 18:46:01,964 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 18:46:01,967 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 18:46:02,029 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:46:02,030 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:46:02,667 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:46:02,668 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:46:07,628 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:46:07,628 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/wiki'
+2026-11-09 18:46:09,331 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:46:09,331 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/search'
+2026-11-09 18:46:09,869 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:46:09,869 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 18:46:12,900 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:46:12,900 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin'
+2026-11-09 18:46:14,923 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:46:14,924 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:46:15,747 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:46:15,748 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:46:23,489 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:46:23,489 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:46:23,993 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:46:23,993 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:46:24,183 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:46:24,183 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:46:24,320 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:46:24,320 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:47:10,191 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:47:10,193 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:47:11,007 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:47:11,007 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/browser'
+2026-11-09 18:47:13,416 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:47:13,416 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/browser/gitea_repo/README.md'
+2026-11-09 18:47:15,813 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:47:15,814 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin'
+2026-11-09 18:47:17,167 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:47:17,168 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/general/plugin'
+2026-11-09 18:47:22,575 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:47:22,575 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/roadmap'
+2026-11-09 18:47:23,064 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:47:23,064 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/browser'
+2026-11-09 18:47:24,438 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:47:24,438 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/browser/gitea_repo'
+2026-11-09 18:47:25,120 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:47:25,120 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/browser/gitea_repo/README.md'
+2026-11-09 18:49:32,032 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:49:32,045 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_upgrade'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 18:49:32,046 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 18:49:39,559 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:49:39,579 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 18:49:39,580 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 18:49:39,596 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 18:49:39,598 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 18:49:39,672 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:49:39,673 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/browser/gitea_repo'
+2026-11-09 18:49:40,391 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:49:40,391 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/browser/gitea_repo'
+2026-11-09 18:49:42,351 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:49:42,351 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 18:51:32,142 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:51:32,142 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report'
+2026-11-09 18:51:36,259 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:51:36,259 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report?action=new'
+2026-11-09 18:52:40,390 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:52:40,407 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_upgrade'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 18:52:40,407 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 18:52:50,080 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:52:50,097 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 18:52:50,098 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 18:52:50,113 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 18:52:50,116 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 18:52:50,164 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:52:50,164 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report'
+2026-11-09 18:52:51,691 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:52:51,691 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 18:52:58,480 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:52:58,481 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/wiki/WikiFormatting'
+2026-11-09 18:53:04,764 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:53:04,764 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin'
+2026-11-09 18:53:06,825 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:53:06,825 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/versioncontrol/repository'
+2026-11-09 18:53:16,591 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:53:16,591 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/severity'
+2026-11-09 18:53:17,314 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:53:17,314 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/resolution'
+2026-11-09 18:53:17,828 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:53:17,828 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/priority'
+2026-11-09 18:53:19,238 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:53:19,238 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type'
+2026-11-09 18:57:05,772 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:57:05,788 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_upgrade'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 18:57:05,788 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 18:57:11,737 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:57:11,756 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 18:57:11,756 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 18:57:11,772 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 18:57:11,774 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 18:57:11,822 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:57:11,822 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type'
+2026-11-09 18:57:13,252 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:57:13,252 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report'
+2026-11-09 18:57:14,287 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:57:14,287 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 18:58:53,178 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:58:53,195 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_upgrade'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 18:58:53,196 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 18:58:58,677 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 18:58:58,696 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 18:58:58,696 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 18:58:58,713 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 18:58:58,717 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 18:58:58,790 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:58:58,790 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 18:59:02,814 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:59:02,814 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report'
+2026-11-09 18:59:03,358 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:59:03,359 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 18:59:03,369 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:59:03,369 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 18:59:10,438 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:59:10,438 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/9'
+2026-11-09 18:59:37,345 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:59:37,345 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/9'
+2026-11-09 18:59:43,304 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:59:43,304 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin'
+2026-11-09 18:59:45,596 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:59:45,597 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type'
+2026-11-09 18:59:48,733 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 18:59:48,733 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type/ECR'
+2026-11-09 19:00:42,854 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:00:42,871 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_upgrade'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:00:42,871 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:00:48,995 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:00:49,012 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:00:49,013 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:00:49,028 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:00:49,032 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:00:49,113 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:00:49,113 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:00:53,646 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:00:53,646 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:00:59,863 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:00:59,863 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:04:47,712 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:04:47,727 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_upgrade'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:04:47,727 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:04:55,585 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:04:55,603 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:04:55,604 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:04:55,619 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:04:55,622 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:04:55,768 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:04:55,768 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report'
+2026-11-09 19:04:57,098 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:04:57,098 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:13,092 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:06:13,112 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:06:13,112 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:06:13,127 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:06:13,131 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:06:13,357 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:13,357 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:16,297 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:16,297 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report'
+2026-11-09 19:06:17,197 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:17,197 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:25,442 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:06:25,458 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_upgrade'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:06:25,459 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:06:33,484 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:06:33,502 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:06:33,503 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:06:33,518 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:06:33,521 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:06:33,746 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:33,746 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:34,431 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:34,431 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:34,926 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:34,926 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:35,231 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:35,231 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:35,398 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:35,398 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:35,567 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:35,567 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:36,170 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:36,170 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:36,345 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:36,345 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:36,488 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:36,488 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:36,647 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:36,647 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:36,809 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:36,809 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:36,982 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:36,982 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:37,147 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:37,147 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:06:44,579 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:06:44,579 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:07:38,221 Trac[main] WARNING: [127.0.0.1] HTTPForbidden: 403 Forbidden (TICKET_CREATE privileges are required to perform this operation. You don't have the required permissions.), <RequestWithSession "GET '/newticket'">, referrer None
+2026-11-09 19:07:38,318 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:07:38,319 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:07:38,341 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:07:38,341 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:07:54,441 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:07:54,455 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:07:54,456 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:07:54,468 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:07:54,471 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:07:54,686 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:07:54,686 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:08:11,031 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:08:11,031 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:08:38,964 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:08:38,982 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:08:38,983 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:08:38,998 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:08:39,001 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:08:39,183 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:08:39,183 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report'
+2026-11-09 19:08:40,148 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:08:40,148 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:10:14,263 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:10:14,282 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:10:14,283 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:10:14,299 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:10:14,303 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:10:14,551 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:10:14,551 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:10:20,045 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:10:20,045 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:11:50,949 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:11:50,967 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:11:50,968 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:11:50,983 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:11:50,986 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:11:51,083 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:11:51,083 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin'
+2026-11-09 19:11:51,117 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:11:51,117 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin'
+2026-11-09 19:11:54,483 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:11:54,484 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type'
+2026-11-09 19:12:21,477 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:12:21,495 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:12:21,496 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:12:21,511 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:12:21,514 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:12:21,704 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:12:21,704 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report'
+2026-11-09 19:12:22,378 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:12:22,378 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:12:46,792 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:12:46,811 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:12:46,812 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:12:46,828 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:12:46,833 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:12:47,042 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:12:47,042 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:13:54,145 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:13:54,163 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:13:54,164 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:13:54,181 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:13:54,185 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:13:54,342 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:13:54,342 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report'
+2026-11-09 19:13:54,768 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:13:54,768 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:14:16,519 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:14:16,519 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:14:20,233 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:14:20,233 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/10'
+2026-11-09 19:14:47,451 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:14:47,470 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:14:47,471 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:14:47,487 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:14:47,492 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:14:47,745 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:14:47,745 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/10'
+2026-11-09 19:14:49,551 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:14:49,552 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:15:02,277 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:15:02,277 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:16:00,542 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:16:00,560 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:16:00,561 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:16:00,576 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:16:00,579 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:16:00,730 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:16:00,730 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report'
+2026-11-09 19:16:01,432 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:16:01,432 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:17:10,249 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:17:10,266 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:17:10,267 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:17:10,282 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:17:10,285 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:17:10,440 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:17:10,440 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report'
+2026-11-09 19:17:11,893 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:17:11,893 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:17:30,155 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:17:30,173 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:17:30,173 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:17:30,188 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:17:30,191 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:17:30,344 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:17:30,344 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report'
+2026-11-09 19:17:31,004 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:17:31,004 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:24:32,595 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:24:32,612 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_upgrade'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:24:32,613 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:35:14,724 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:35:14,742 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:35:14,743 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:35:14,758 Trac[loader] ERROR: Skipping "trac_to_gitea": ModuleNotFoundError: No module named 'requests'
+2026-11-09 19:35:14,759 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:35:14,762 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:35:14,999 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:35:14,999 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:35:20,987 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:35:20,987 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/11'
+2026-11-09 19:35:45,999 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:35:46,017 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:35:46,018 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:35:46,032 Trac[loader] ERROR: Skipping "trac_to_gitea": ModuleNotFoundError: No module named 'requests'
+2026-11-09 19:35:46,033 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:35:46,037 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:35:46,285 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:35:46,285 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:35:52,550 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:35:52,550 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/12'
+2026-11-09 19:36:12,132 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:36:12,132 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/12'
+2026-11-09 19:36:58,634 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:36:58,652 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TracAdmin' object has no attribute 'do_upgrade'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:36:58,652 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:37:03,645 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:37:03,663 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:37:03,664 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:37:03,699 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:37:03,701 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:37:03,750 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:37:03,750 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/admin/ticket/type'
+2026-11-09 19:37:05,683 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:37:05,683 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/12'
+2026-11-09 19:37:07,813 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:37:07,813 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:37:08,283 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:37:08,283 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/report'
+2026-11-09 19:37:09,565 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:37:09,566 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:37:18,506 Trac[main] ERROR: [127.0.0.1] Internal Server Error: <RequestWithSession "POST '/newticket'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/web/main.py", line 609, in dispatch_request
+    dispatcher.dispatch(req)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/web/main.py", line 301, in dispatch
+    raise e
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/web/main.py", line 247, in dispatch
+    resp = chosen_handler.process_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/ticket/web_ui.py", line 162, in process_request
+    return self._process_newticket_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/ticket/web_ui.py", line 513, in _process_newticket_request
+    self._do_create(req, ticket, action)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/ticket/web_ui.py", line 1333, in _do_create
+    ticket.insert()
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/ticket/model.py", line 323, in insert
+    listener.ticket_created(self)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/plugins/trac_to_gitea.py", line 24, in ticket_created
+    "body": f"Incidencia sincronizada desde Trac.\n\n**Tipo:** {ticket['type']}\n**Cliente:** {ticket.get('cliente', 'N/A')}\n\n{ticket['description']}"
+                                                                                               ^^^^^^^^^^
+AttributeError: 'Ticket' object has no attribute 'get'
+2026-11-09 19:37:18,546 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:37:18,546 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:37:24,943 Trac[main] ERROR: [127.0.0.1] Internal Server Error: <RequestWithSession "POST '/newticket'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/web/main.py", line 609, in dispatch_request
+    dispatcher.dispatch(req)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/web/main.py", line 301, in dispatch
+    raise e
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/web/main.py", line 247, in dispatch
+    resp = chosen_handler.process_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/ticket/web_ui.py", line 162, in process_request
+    return self._process_newticket_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/ticket/web_ui.py", line 513, in _process_newticket_request
+    self._do_create(req, ticket, action)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/ticket/web_ui.py", line 1333, in _do_create
+    ticket.insert()
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/ticket/model.py", line 323, in insert
+    listener.ticket_created(self)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/plugins/trac_to_gitea.py", line 24, in ticket_created
+    "body": f"Incidencia sincronizada desde Trac.\n\n**Tipo:** {ticket['type']}\n**Cliente:** {ticket.get('cliente', 'N/A')}\n\n{ticket['description']}"
+                                                                                               ^^^^^^^^^^
+AttributeError: 'Ticket' object has no attribute 'get'
+2026-11-09 19:37:24,971 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:37:24,971 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:38:31,010 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:38:31,028 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:38:31,028 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:38:31,063 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:38:31,067 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:38:31,726 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:38:31,726 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:38:33,830 Trac[trac_to_gitea] ERROR: Excepción conectando con Gitea: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/v1/repos/alejandro/prueba/issues (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)')))
+2026-11-09 19:38:33,904 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:38:33,904 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/15'
+2026-11-09 19:38:33,915 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:38:33,915 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/15'
+2026-11-09 19:40:40,423 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:40:40,424 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:40:45,514 Trac[trac_to_gitea] ERROR: Excepción conectando con Gitea: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/v1/repos/alejandro/prueba/issues (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)')))
+2026-11-09 19:40:45,586 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:40:45,586 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/16'
+2026-11-09 19:40:45,599 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:40:45,599 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/16'
+2026-11-09 19:41:34,416 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:41:34,434 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:41:34,435 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:41:34,469 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:41:34,473 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:41:34,560 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:41:34,560 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:41:47,291 Trac[trac_to_gitea] ERROR: Excepción conectando con Gitea: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/v1/repos/alejandro/prueba/issues (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)')))
+2026-11-09 19:41:47,368 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:41:47,368 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/17'
+2026-11-09 19:42:28,283 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:42:28,301 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:42:28,302 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:42:28,337 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:42:28,341 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:42:28,430 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:42:28,430 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:42:33,653 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:42:33,653 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:42:38,291 Trac[trac_to_gitea] ERROR: Excepción conectando con Gitea: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/v1/repos/alejandro/prueba/issues (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)')))
+2026-11-09 19:42:38,370 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:42:38,370 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/18'
+2026-11-09 19:42:55,776 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:42:55,794 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:42:55,795 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:42:55,829 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:42:55,834 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:42:55,922 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:42:55,922 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:43:00,311 Trac[trac_to_gitea] ERROR: Excepción conectando con Gitea: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/v1/repos/alejandro/prueba/issues (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)')))
+2026-11-09 19:43:00,393 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:43:00,393 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/19'
+2026-11-09 19:43:21,884 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:43:21,901 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:43:21,902 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:43:21,937 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:43:21,941 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:43:22,030 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:43:22,030 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:43:25,610 Trac[trac_to_gitea] ERROR: Excepción conectando con Gitea: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/v1/repos/alejandro/prueba/issues (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)')))
+2026-11-09 19:43:25,685 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:43:25,686 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/20'
+2026-11-09 19:44:52,948 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:44:52,967 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:44:52,968 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:44:53,004 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:44:53,008 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:44:53,097 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:44:53,097 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:44:56,803 Trac[trac_to_gitea] ERROR: Excepción conectando con Gitea: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/v1/repos/alejandro/prueba/issues (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)')))
+2026-11-09 19:44:56,881 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:44:56,881 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/21'
+2026-11-09 19:45:15,510 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:45:15,528 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:45:15,528 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:45:15,564 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:45:15,567 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:45:15,659 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:45:15,659 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/prefs'
+2026-11-09 19:45:16,886 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:45:16,886 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:45:21,001 Trac[trac_to_gitea] ERROR: Excepción conectando con Gitea: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/v1/repos/alejandro/prueba/issues (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)')))
+2026-11-09 19:45:21,075 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:45:21,075 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/22'
+2026-11-09 19:46:02,080 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:46:02,097 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:46:02,098 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:46:02,132 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:46:02,136 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:46:02,229 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:46:02,229 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:46:06,886 Trac[trac_to_gitea] INFO: Issue creada en Gitea para el ticket Trac #23
+2026-11-09 19:46:06,961 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:46:06,961 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/23'
+2026-11-09 19:47:18,889 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:47:18,908 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:47:18,908 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:47:18,943 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:47:18,947 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:47:19,036 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:47:19,036 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:47:26,643 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:47:26,643 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/24'
+2026-11-09 19:47:36,814 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:47:36,814 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/24'
+2026-11-09 19:47:46,513 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:47:46,513 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:47:53,764 Trac[main] ERROR: [127.0.0.1] Internal Server Error: <RequestWithSession "POST '/newticket'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/web/main.py", line 609, in dispatch_request
+    dispatcher.dispatch(req)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/web/main.py", line 301, in dispatch
+    raise e
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/web/main.py", line 247, in dispatch
+    resp = chosen_handler.process_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/ticket/web_ui.py", line 162, in process_request
+    return self._process_newticket_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/ticket/web_ui.py", line 513, in _process_newticket_request
+    self._do_create(req, ticket, action)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/ticket/web_ui.py", line 1333, in _do_create
+    ticket.insert()
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/ticket/model.py", line 323, in insert
+    listener.ticket_created(self)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/plugins/trac_to_gitea.py", line 31, in ticket_created
+    * **Prioridad Cliente:** `{ticket.get('prioridad_cliente', 'No definida')}`
+                               ^^^^^^^^^^
+AttributeError: 'Ticket' object has no attribute 'get'
+2026-11-09 19:47:53,798 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:47:53,799 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:49:02,400 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:49:02,419 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:49:02,420 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:49:02,456 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:49:02,460 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:49:06,991 Trac[trac_to_gitea] INFO: Issue creada en Gitea para el ticket Trac #26
+2026-11-09 19:49:07,077 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:49:07,077 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/26'
+2026-11-09 19:49:15,388 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:49:15,388 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/26'
+2026-11-09 19:49:37,697 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:49:37,715 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:49:37,716 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:49:37,750 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:49:37,761 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:49:40,706 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:49:40,706 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/26'
+2026-11-09 19:49:58,303 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:49:58,303 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/26'
+2026-11-09 19:50:11,834 Trac[env] INFO: -------------------------------- environment startup [Trac 1.6] --------------------------------
+2026-11-09 19:50:11,852 Trac[loader] ERROR: Skipping "mastertickets.api = mastertickets.api": 
+Traceback (most recent call last):
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/trac/loader.py", line 80, in _load_eggs
+    entry.load(require=True)
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2778, in load
+    return self.resolve()
+           ^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/pkg_resources/__init__.py", line 2784, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/venv/lib/python3.11/site-packages/mastertickets/api.py", line 125
+    except Exception, e:
+           ^^^^^^^^^^^^
+SyntaxError: multiple exception types must be parenthesized (api.py, line 125)
+2026-11-09 19:50:11,853 Trac[loader] ERROR: Skipping "mastertickets.web_ui = mastertickets.web_ui": ModuleNotFoundError: No module named 'graphviz'
+2026-11-09 19:50:11,890 Trac[env] WARNING: [trac] base_url option not set in configuration, generated links may be incorrect
+2026-11-09 19:50:11,895 Trac[git_fs] INFO: detected GIT version 2.56.0
+2026-11-09 19:50:11,998 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:50:11,998 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/26'
+2026-11-09 19:50:12,414 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:50:12,414 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/26'
+2026-11-09 19:50:13,702 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:50:13,702 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:50:17,057 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:50:17,057 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/newticket'
+2026-11-09 19:50:20,117 Trac[trac_to_gitea] INFO: Issue creada en Gitea para el ticket Trac #27
+2026-11-09 19:50:20,195 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:50:20,195 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/27'
+2026-11-09 19:50:31,119 Trac[trac_to_gitea] ERROR: Error al actualizar issue en Gitea: {"id":3,"url":"http://localhost:3000/api/v1/repos/alejandro/prueba/issues/3","html_url":"http://localhost:3000/alejandro/prueba/issues/3","number":3,"user":{"id":1,"login":"alejandro","type":"User","login_name":"","source_id":0,"full_name":"","email":"alejandro@gmail.com","avatar_url":"http://localhost:3000/avatars/776cae8694651a998fb4c10014afaa0a1f22190f57144e019ffada2a307a13d3","html_url":"http://localhost:3000/alejandro","language":"es-ES","is_admin":true,"last_login":"2026-11-09T18:43:58+01:00","created":"2026-11-09T18:43:58+01:00","restricted":false,"active":true,"prohibit_login":false,"location":"","website":"","description":"","visibility":"public","followers_count":0,"following_count":0,"starred_repos_count":0,"username":"alejandro"},"original_author":"","original_author_id":0,"title":"[Trac #27] hgdfs","body":"> Incidencia sincronizada automáticamente desde **Trac** (Entorno de Gobernanza).\n\n---\n\n###  Información del Ticket\n- **ID en Trac:** `#27`\n- **Tipo:** `DCR`\n- **Estado:** `closed`\n\n\n---\n\n###  Descripción Original\n\n\n---\n\n###  Enlaces y Referencias\n- **Enlace directo al Ticket en Trac:** [Ver en Trac](http://127.0.0.1:8080/proyectotrac/ticket/27)\n","ref":"","assets":[],"labels":[],"milestone":null,"projects":null,"assignee":null,"assignees":null,"state":"open","is_locked":false,"comments":0,"created_at":"2026-11-09T19:50:20+01:00","updated_at":"2026-11-09T19:50:31+01:00","closed_at":null,"due_date":null,"time_estimate":0,"pull_request":null,"repository":{"id":1,"name":"prueba","owner":"alejandro","full_name":"alejandro/prueba"},"pin_order":0,"content_version":1}
+2026-11-09 19:50:31,193 Trac[chrome] WARNING: File your_project_logo.png not found in any of ['/home/alejandro/workspace/KanbanProject-Bugtracking/kanban_trac/proyectotrac/htdocs']
+2026-11-09 19:50:31,193 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File your_project_logo.png not found), <RequestWithSession "GET '/chrome/site/your_project_logo.png'">, referrer 'http://127.0.0.1:8080/proyectotrac/ticket/27'

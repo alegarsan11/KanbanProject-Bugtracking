@@ -1,0 +1,10 @@
+Trac>=1.6
+tracmastertickets
+tracrpc
+tracxmlrpc
+Jinja2>=3.1.0
+MarkupSafe>=2.0.0
+setuptools>=65.0.0
+pip>=22.0.0
+wheel>=0.38.0
+requests

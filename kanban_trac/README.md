@@ -91,3 +91,15 @@ Para forzar a Trac a cargar el archivo estático en las vistas de tickets, se cr
 ```html
 <script type="text/javascript" src="${href.chrome('site/site.js')}"></script>
 ```
+
+## Troubleshooting: Sincronización Trac, Gitea y Repositorios Git
+
+### 1. Error de "Changeset" o saltos extraños en Trac (Fechas de hace 57 años)
+
+Si tras realizar cambios externos, inyecciones de datos o sincronizaciones con Gitea, Trac muestra errores al acceder a los commits o aparecen fechas anómalas (como el año 1970 / hace 57 años), se debe a una **desincronización en la caché de revisiones** o marcas de tiempo (`timestamps`) nulas en la base de datos (`trac.db`).
+
+#### Solución Recomendada (Resync)
+No es necesario eliminar registros de la base de datos a mano. Utiliza la herramienta de administración oficial de Trac para reindexar el repositorio:
+
+```bash
+trac-admin /ruta/a/tu/entorno/trac repository resync "nombre_del_repositorio"

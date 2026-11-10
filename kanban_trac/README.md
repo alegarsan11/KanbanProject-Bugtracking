@@ -103,3 +103,29 @@ No es necesario eliminar registros de la base de datos a mano. Utiliza la herram
 
 ```bash
 trac-admin /ruta/a/tu/entorno/trac repository resync "nombre_del_repositorio"
+```
+
+# Entendiendo HEAD en trac
+En la integración entre Trac y un repositorio Git (como los gestionados en Gitea), es común notar que Trac muestra por defecto la última rama modificada en lugar de la rama main. Para comprender por qué ocurre esto y cómo controlarlo, es fundamental analizar el concepto de HEAD.
+
+## ¿Qué es el puntero HEAD en Git?
+
+El HEAD es el puntero interno de Git que indica en qué commit o rama se encuentra posicionado actualmente el repositorio.
+
+### Comportamiento dinámico:
+ Cada vez que realizas un git commit, un git push o un cambio de rama (git checkout), el archivo HEAD del servidor se actualiza automáticamente para reflejar esa actividad reciente.
+
+### Interpretación en Trac:
+ Por defecto, el conector de Git en Trac (git_fs.py) consulta el estado actual del repositorio en el servidor. Si no se fuerza una referencia estática, Trac lee el HEAD actual y muestra esa rama de forma predeterminada en el explorador de código (Browse Source).
+
+## Cómo forzar la rama main de forma permanente
+
+Si deseas que Trac ignore el movimiento dinámico del HEAD y muestre siempre la rama oficial (main), puedes ajustar el puntero directamente en el repositorio del servidor mediante el comando symbolic-ref:
+
+cd /ruta/a/tu/repositorio.git
+git symbolic-ref HEAD refs/heads/main
+
+
+Tras aplicar este cambio, debes vaciar la caché y resincronizar los metadatos en Trac para que refleje la nueva directiva:
+
+trac-admin /ruta/a/tu/entorno/trac repository resync "nombre_del_repositorio"
